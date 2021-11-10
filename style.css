@@ -54,11 +54,14 @@ canvas {
     font-size: 2.5rem;
     padding: 2rem;
     margin-bottom: var(--spacing);
+    width: 50%;
+    
   }
 
   section {
     grid-column:2 / 12;
-    
+    width: 75%;
+    margin: auto;
     padding: 1rem;
     background: var(--dark-bg);
     font-size: 1.25rem;
@@ -115,10 +118,10 @@ canvas {
  .card {
     box-shadow: 0 4px 8px 0 rgba(248, 248, 248, 0.2); 
     padding: 16px;
-    
+    height: 100%;
     text-align: center;
-    background-color: #F5862B;
-    color: #F5862B;
+    background-color: #F5862B !important;
+    /*color: #F5862B;*/
   }
   iframe{
     height: 255px;
@@ -134,15 +137,69 @@ canvas {
     
 
   }
+  
+  
+  .btn.btn-primary{
+    background-color: red !important;
+    border: none;
+    position: relative; 
+  }
+  /*.btn.btn-icon{
+    
+    border: none;
+    position: relative; 
+  
+  }
+  #close-image img {
+    border: none;
+    
+    display: block;
+    height:50px;
+    width:50px;
+    
+  
+}*/
 
-  /*@media only screen and (min-width: 768px) {
-    iframe{
-      height: 13em;
+.dart{
+  background: url('/assets/dart.png');
+  position: relative;
+  height: 50px;
+  width: 50px;
+  background-size:100% 100%;
+  border: none;
+  
+}
+.flutter{
+  background: url('/assets/flutter.png');
+  position: relative;
+  height: 50px;
+  width: 50px;
+  background-size:100% 100%;
+  border: none;
+  
+}
+
+  .columnB {
+    float: left;
+    position: relative;
+    width: 100px;
+
+  }
+    /* Remove extra left and right margins, due to padding in columns */
+    .rowB {margin: 0 -5px;
+      position: absolute;
+      bottom: 1%;
+      right: 0;
     }
-    .card{
-      width: 50%;
+    
+    /* Clear floats after the columns */
+    .rowB:after {
+      content: "";   
+      display: table;
+      clear: both;
     }
-  }*/
+
+ 
 
 
  
