@@ -32,7 +32,7 @@ main {
 }
 
 h1, h2, h3, blockquote {
-  font-family: elevon, sans-serif;
+  font-family: brandon-grotesque, sans-serif;
   font-weight: 700;
   font-style: normal;
 }
@@ -145,27 +145,6 @@ canvas {
     position: relative; 
   }
  
-
- 
-
-.dart{
-  background: url('/assets/dart.png');
-  position: relative;
-  height: 50px;
-  width: 50px;
-  background-size:100% 100%;
-  border: none;
-  
-}
-.flutter{
-  background: url('/assets/flutter.png');
-  position: relative;
-  height: 50px;
-  width: 50px;
-  background-size:100% 100%;
-  border: none;
-  
-}
 
   .columnB {
     float: left;
