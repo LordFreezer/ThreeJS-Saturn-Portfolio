@@ -144,21 +144,9 @@ canvas {
     border: none;
     position: relative; 
   }
-  /*.btn.btn-icon{
-    
-    border: none;
-    position: relative; 
-  
-  }
-  #close-image img {
-    border: none;
-    
-    display: block;
-    height:50px;
-    width:50px;
-    
-  
-}*/
+ 
+
+ 
 
 .dart{
   background: url('/assets/dart.png');
