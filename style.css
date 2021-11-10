@@ -146,6 +146,12 @@ canvas {
     border: none;
     position: relative; 
   }
+
+  .btn.btn-fx{
+    background-color: white !important;
+    border: none;
+    position: relative; 
+  }
  
 
   .columnB {
