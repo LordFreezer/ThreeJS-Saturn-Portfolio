@@ -75,6 +75,7 @@ h1, h2, h3, blockquote {
     padding: 0;
     grid-column: 2 / span 9;
     margin-bottom: var(--spacing);
+    text-align: right;
   }
 
   blockquote p {
@@ -84,6 +85,7 @@ h1, h2, h3, blockquote {
     font-size: 4rem;
     display: inline;
     line-height: 1;
+    
   }
 
 
