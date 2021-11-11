@@ -148,7 +148,7 @@ canvas {
     background-color: red !important;
     border: none;
     position: relative; 
-    bottom: -15px;
+  
    
   }
 
@@ -156,16 +156,18 @@ canvas {
  
 
   .columnB {
-    float: left;
+    display: inline-block;
+    
     position: relative;
     width: 100px;
 
   }
     /* Remove extra left and right margins, due to padding in columns */
     .rowB {margin: 0 -5px;
+      display: block;
       position: relative;  
      bottom: 0%;
-     left: -10%;
+     left: 0%;
     }
     
     /* Clear floats after the columns */
