@@ -81,18 +81,19 @@ scene.add(
   saturn);
 
 
-function addStar() {
+function addMoon() {
   const colors = ['/assets/redGlow.jpg', '/assets/blueGlow.jpg', '/assets/whiteGlow.jpg']
-  const starTexture = new THREE.TextureLoader().load(colors[getRandomInt(3)]);
+  const moonTexture = new THREE.TextureLoader().load(colors[getRandomInt(3)]);
   const geometry = new THREE.SphereGeometry(0.25, 24, 24);
-  const material = new THREE.MeshStandardMaterial({ map: starTexture/*color: 0x717171*/ });
+  const material = new THREE.MeshStandardMaterial({ map: moonTexture/*color: 0x717171*/ });
 
-  const star = new THREE.Mesh(geometry, material);
+  const moon = new THREE.Mesh(geometry, material);
   const [x, y, z] = Array(3).fill().map(() => THREE.MathUtils.randFloatSpread(100));
-  star.position.set(x * 5, y * 5, z * 5);
-  scene.add(star);
+  moon.position.set(x * 5, y * 5, z * 5);
+  scene.add(moon);
 }
-Array(200).fill().forEach(addStar);
+Array(200).fill().forEach(addMoon);
+
 
 function moveCamera() {
   const t = document.body.getBoundingClientRect().top;
