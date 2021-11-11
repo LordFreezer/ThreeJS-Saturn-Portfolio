@@ -148,6 +148,7 @@ canvas {
     background-color: red !important;
     border: none;
     position: relative; 
+    bottom: -15px;
    
   }
 
@@ -163,7 +164,8 @@ canvas {
     /* Remove extra left and right margins, due to padding in columns */
     .rowB {margin: 0 -5px;
       position: relative;
-      
+      flex-wrap: wrap;
+      flex-direction: row;
      bottom: 0%;
      left: 10%;
     }
