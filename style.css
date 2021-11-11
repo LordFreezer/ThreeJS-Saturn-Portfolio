@@ -51,13 +51,10 @@ h1, h2, h3, blockquote {
     border-radius: 25px;
     background: var(--dark-bg);
     grid-column: 2 / span 3;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     padding: 2rem;
     margin-bottom: var(--spacing);
     width: 35%;
-    line-height: 1;
-    
-    
     
   }
 
