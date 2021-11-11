@@ -55,7 +55,10 @@ h1, h2, h3, blockquote {
     padding: 2rem;
     margin-bottom: var(--spacing);
     width: 35%;
-    line-height: 1; 
+    line-height: 1;
+    
+    
+    
   }
 
   section {
@@ -84,7 +87,8 @@ h1, h2, h3, blockquote {
     background-color: white;
     font-size: 4rem;
     display: inline;
-    line-height: 1;   
+    line-height: 1;
+    
   }
 
 
@@ -109,7 +113,9 @@ h1, h2, h3, blockquote {
   }
   
   /* Remove extra left and right margins, due to padding in columns */
-  .row {margin: 0 -5px; 
+  .row {margin: 0 -5px;
+  
+    
   }
   
   /* Clear floats after the columns */
@@ -140,6 +146,8 @@ h1, h2, h3, blockquote {
       display: block;
       margin-bottom: 20px;
     }
+    
+
   }
   
   
@@ -147,13 +155,19 @@ h1, h2, h3, blockquote {
     background-color: red !important;
     border: none;
     position: relative; 
+  
+   
   }
+
+  
+ 
 
   .columnB {
     display: inline-block;
     
     position: relative;
     width: 100px;
+
   }
     /* Remove extra left and right margins, due to padding in columns */
     .rowB {margin: 0 -5px;
