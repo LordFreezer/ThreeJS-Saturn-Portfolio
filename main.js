@@ -1,8 +1,11 @@
 // old
 //import './style.css';
 //import * as THREE from 'three';
-import * as THREE from './node_modules/three/build/three.module';
-import { OrbitControls } from './node_modules/three/examples/jsm/controls/OrbitControls';
+
+import * as THREE from '/node_modules/three/build/three.module';
+import { OrbitControls } from '/node_modules/three/examples/jsm/controls/OrbitControls';
+//import * as THREE from './node_modules/three/build/three.module';
+//import { OrbitControls } from './node_modules/three/examples/jsm/controls/OrbitControls';
 
 // maybe broken
 //import * as THREE from 'https://cdn.skypack.dev/three';
