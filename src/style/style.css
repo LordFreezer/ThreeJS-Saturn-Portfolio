@@ -1,0 +1,193 @@
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+}
+#bg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+
+
+:root {
+  --dark-bg: rgba(15, 15, 15, 0.95);
+  --spacing: 350px;
+
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+main {
+  width: 100vw;
+  color: white;
+  z-index: 99;
+  position: relative;
+  width: 100%;
+  margin: 0px auto;
+  padding: 120px 0px;
+  
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+h1, h2, h3, blockquote {
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+
+
+
+  header {
+    border-radius: 25px;
+    background: var(--dark-bg);
+    grid-column: 2 / span 3;
+    font-size: 1.75rem;
+    padding: 2rem;
+    margin-bottom: var(--spacing);
+    width: 35%;
+    
+  }
+
+  section {
+    border-radius: 25px;
+    grid-column:2 / 12;
+    width: 60%;
+    margin: auto;
+    padding: 1rem;
+    background: var(--dark-bg);
+    font-size: 1.25rem;
+    line-height: 1;
+    margin-bottom: var(--spacing);
+  }
+
+  blockquote {
+    margin: 0;
+    padding: 0;
+    grid-column: 2 / span 9;
+    margin-bottom: var(--spacing);
+    text-align: right;
+  }
+
+  blockquote p {
+    border-radius: 25px;
+    color: black;
+    background-color: white;
+    font-size: 4rem;
+    display: inline;
+    line-height: 1;
+    
+  }
+
+
+  .left {
+    grid-column: 6 / 12;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    height: 100%;
+    
+  }
+  
+  
+
+
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px 10px 10px 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .row {margin: 0 -5px;
+  
+    
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";   
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the counter cards */
+  /* this adds the "card" effect */
+ .card {
+    box-shadow: 0 4px 8px 0 rgba(248, 248, 248, 0.2); 
+    padding: 16px;
+    height: 100%;
+    text-align: center;
+    background-color: #F5862B !important;
+    /*color: #F5862B;*/
+  }
+  iframe{
+    height: 255px;
+   
+  }
+  /* Responsive columns - one column layout (vertical) on small screens */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+    
+
+  }
+  
+  
+  .btn.btn-primary{
+    background-color: red !important;
+    border: none;
+    position: relative; 
+  
+   
+  }
+
+  
+ 
+
+  .columnB {
+    display: inline-block;
+    
+    position: relative;
+    width: 100px;
+
+  }
+    /* Remove extra left and right margins, due to padding in columns */
+    .rowB {margin: 0 -5px;
+      display: block;
+      position: relative;  
+     bottom: 0%;
+     left: 0%;
+    }
+    
+    /* Clear floats after the columns */
+    .rowB:after {
+      content: "";   
+      display: table;
+      clear: both;
+    }
+  
+ 
+
+
+
+ 
+
+
+ 
